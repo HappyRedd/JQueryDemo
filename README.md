@@ -27,7 +27,7 @@ $("#elem").on({
 ** 将数据传递到处理程序**
 ```
 function greet( event ) {
-  alert( "Hello " + event.data.name ); //Hello 慕课网
+  alert( "Hello " + event.data.name ); //Hello Redd
 }
 $( "button" ).on( "click", {
   name: "Redd"
